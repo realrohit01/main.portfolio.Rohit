@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rohit Kumar Gupta - BCA Student & Aspiring Software Engineer Portfolio" />
+    <meta name="keywords" content="portfolio, web developer, software engineer, BCA student" />
+    <meta name="author" content="Rohit Kumar Gupta" />
+    <meta name="theme-color" content="#667eea" />
+    <title>Rohit Kumar Gupta - Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Crimson+Pro:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Loading Screen -->
+    <div id="preloader" class="preloader">
+      <div class="loader-content">
+        <div class="spinner"></div>
+        <p class="loading-text">Loading Portfolio...</p>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid px-4 px-lg-5">
+        <a class="navbar-brand" href="#home">
+          <span class="brand-icon">👨‍💻</span> 
+          <span class="brand-text">Rohit</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav gap-2 gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interest">Interest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#favourite">Favourite</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aim">Aim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#motivation">Motivation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#question">Questions</a>
+            </li>
+          </ul>
+        </div>
+        <a class="nav-link d-none d-lg-block" href="#contact">
+          <button class="c-btn py-2 px-4">
+            <span>Contact</span>
+            <i class="bi bi-send-fill ms-2"></i>
+          </button>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Hero Section -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center">
+          <div class="col-10 col-md-6 text-center text-md-start" data-aos="fade-right" data-aos-duration="1000">
+            <div class="typing-container mb-3">
+              <small class="text-muted welcome-badge">👋 Welcome to my portfolio</small>
+            </div>
+            <h1 class="display-4 fw-bold mb-4 hero-title">
+              Hello! I Am <br />
+              <span class="gradient-text typing-effect">Rohit Kumar Gupta</span>
+            </h1>
+            <div class="role-badges mb-4">
+              <span class="role-badge"><i class="bi bi-code-slash me-1"></i> BCA Student</span>
+              <span class="role-badge"><i class="bi bi-star-fill me-1"></i> Aspiring Software Engineer</span>
+            </div>
+            <p class="text-muted mt-4 lead hero-description">
+              My name is Rohit Kumar Gupta, and I am from Dhanbad, Jharkhand. I am currently pursuing a Bachelor of Computer Applications (BCA) from RKDF University, Ranchi, where I am building a strong foundation in computer science, programming, and application development.
+            </p>
+            <p class="text-muted">
+              I completed my Class 10 in 2023 from New Angels Home School, CBSE Board, securing 63%, followed by my Class 12 in 2025 from J.N.M. Senior Secondary School, CBSE Board, with 64.2%. Throughout my academic journey, I have maintained a keen interest in learning new concepts and improving my technical and problem-solving skills.
+            </p>
+            <p class="text-muted">
+              Along with academics, I actively engage in sports such as Carrom and Volleyball, which have played an important role in shaping my personality. These activities have helped me develop strategic thinking, teamwork, leadership abilities, discipline, and effective communication skills.
+            </p>
+            <p class="text-muted highlight-text">
+              <i class="bi bi-heart-fill text-danger me-2"></i>
+              I am deeply passionate about technology and programming. My long-term career goal is to become a Software Engineer, and I am continuously working on improving my coding and problem-solving skills.
+            </p>
+            <div class="btn-group-custom mt-4">
+              <a href="#interest" class="c-btn">
+                <span>Explore More</span>
+                <i class="bi bi-arrow-down ms-2"></i>
+              </a>
+              <a href="#contact" class="c-btn-outline ms-3">
+                <span>Get In Touch</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-10 col-md-5 mt-5 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
+            <div class="hero-image-container">
+              <div class="image-glow"></div>
+              <img src="images/introduction.webp" class="img-fluid rounded-4" alt="Rohit Kumar Gupta Introduction" />
+              <div class="floating-badge badge-1">
+                <i class="bi bi-code-slash"></i>
+                <span>Coding</span>
+              </div>
+              <div class="floating-badge badge-2">
+                <i class="bi bi-trophy-fill"></i>
+                <span>Sports</span>
+              </div>
+              <div class="stats-badge">
+                <div class="stat-item">
+                  <h4>BCA</h4>
+                  <p>Student</p>
+                </div>
+                <div class="stat-item">
+                  <h4>2026</h4>
+                  <p>Current Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interest Section -->
+    <section class="interest py-5" id="interest">
+      <div class="container">
+        <div class="heading text-center" data-aos="fade-up">
+          <small class="section-subtitle">My Interest 🤩</small>
+          <h2 class="section-title">
+            Coding, Carrom & Volleyball<br />
+            <span class="highlight">Shape My Mind, Strategy & Teamwork</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="row justify-content-evenly mt-5 g-4">
+          <div class="col-10 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card">
+              <div class="card-icon-wrapper">
+                <div class="icon-bg"></div>
+                <img src="images/coding2.png" class="card-icon" alt="Coding Icon" />
+              </div>
+              <div class="content mt-4 text-center">
+                <h4>Coding</h4>
+                <p class="text-muted">
+                  Coding sharpens my problem-solving skills and logical thinking
+                </p>
+                <div class="skill-tags mt-3">
+                  <span class="skill-tag">Problem Solving</span>
+                  <span class="skill-tag">Logic</span>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Coding" target="_blank" rel="noopener noreferrer" class="link mt-3 d-inline-block">
+                  Read More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card">
+              <div class="card-icon-wrapper">
+                <div class="icon-bg"></div>
+                <img src="images/carrom.png" class="card-icon" alt="Carrom Icon" />
+              </div>
+              <div class="content mt-4 text-center">
+                <h4>Carrom</h4>
+                <p class="text-muted">
+                  Carrom enhances my strategic thinking and concentration
+                </p>
+                <div class="skill-tags mt-3">
+                  <span class="skill-tag">Strategy</span>
+                  <span class="skill-tag">Focus</span>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Carrom" target="_blank" rel="noopener noreferrer" class="link mt-3 d-inline-block">
+                  Read More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card">
+              <div class="card-icon-wrapper">
+                <div class="icon-bg"></div>
+                <img src="images/volleyball2.png" class="card-icon" alt="Volleyball Icon" />
+              </div>
+              <div class="content mt-4 text-center">
+                <h4>Volleyball</h4>
+                <p class="text-muted">
+                  Volleyball builds my teamwork and quick decision-making abilities
+                </p>
+                <div class="skill-tags mt-3">
+                  <span class="skill-tag">Teamwork</span>
+                  <span class="skill-tag">Leadership</span>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Volleyball" target="_blank" rel="noopener noreferrer" class="link mt-3 d-inline-block">
+                  Read More <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skill py-5" id="skill">
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center">
+          <div class="col-10 col-md-5" data-aos="zoom-in">
+            <div class="row justify-content-evenly g-4">
+              <div class="col-6">
+                <div class="progress-card">
+                  <div class="circular-progress html-css">
+                    <span class="progress-value html-progress">0%</span>
+                  </div>
+                  <span class="text d-block mt-3">C Language</span>
+                  <small class="text-muted">Beginner</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="progress-card">
+                  <div class="circular-progress javascript">
+                    <span class="progress-value javascript-progress">0%</span>
+                  </div>
+                  <span class="text d-block mt-3">C++</span>
+                  <small class="text-muted">Beginner</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="progress-card">
+                  <div class="circular-progress php">
+                    <span class="progress-value php-progress">0%</span>
+                  </div>
+                  <span class="text d-block mt-3">HTML</span>
+                  <small class="text-muted">Intermediate</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="progress-card">
+                  <div class="circular-progress reactjs">
+                    <span class="progress-value reactjs-progress">0%</span>
+                  </div>
+                  <span class="text d-block mt-3">CSS</span>
+                  <small class="text-muted">Intermediate</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-5 mt-md-0" data-aos="fade-left">
+            <div class="heading">
+              <small class="section-subtitle">Skills</small>
+              <h2 class="section-title">What and How Much I Learn</h2>
+              <div class="title-underline"></div>
+              <p class="text-muted mt-4">
+                I have a solid foundation in programming and web development, with knowledge of C, C++, HTML, and CSS. C has strengthened my problem-solving and logical thinking, while C++ introduced me to object-oriented concepts.
+              </p>
+              <p class="text-muted">
+                I am continuously improving my web development and coding skills to achieve my goal of becoming a Software Engineer. This is just the starting phase in my life. So there are many more things to learn. 😊
+              </p>
+              <div class="skills-list mt-4">
+                <div class="skill-badge">
+                  <i class="bi bi-check-circle-fill"></i> Problem Solving
+                </div>
+                <div class="skill-badge">
+                  <i class="bi bi-check-circle-fill"></i> Logical Thinking
+                </div>
+                <div class="skill-badge">
+                  <i class="bi bi-check-circle-fill"></i> Quick Learner
+                </div>
+                <div class="skill-badge">
+                  <i class="bi bi-check-circle-fill"></i> Team Player
+                </div>
+              </div>
+              <a href="https://www.instagram.com/_mr_rohittt.__?igsh=bmxvcXdiNm5xNmN3" target="_blank" rel="noopener noreferrer" class="c-btn mt-4">
+                <i class="bi bi-instagram me-2"></i>Follow on Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Favourite Section -->
+    <section class="favourite py-5" id="favourite">
+      <div class="container">
+        <div class="heading text-center pt-5" data-aos="fade-up">
+          <small class="section-subtitle">Favourite ❤️</small>
+          <h2 class="section-title">Look What I Love The Most 💕</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div id="myBtnContainer" class="text-center mt-5" data-aos="fade-up" data-aos-delay="100">
+          <button class="filter-item active" data-filter="all">
+            <i class="bi bi-grid-3x3-gap-fill me-2"></i>All
+          </button>
+          <button class="filter-item" data-filter="coding">
+            <i class="bi bi-code-slash me-2"></i>Coding
+          </button>
+          <button class="filter-item" data-filter="music">
+            <i class="bi bi-music-note-beamed me-2"></i>Music
+          </button>
+          <button class="filter-item" data-filter="sports">
+            <i class="bi bi-trophy-fill me-2"></i>Sports
+          </button>
+          <button class="filter-item" data-filter="gaming">
+            <i class="bi bi-controller me-2"></i>Gaming
+          </button>
+          <button class="filter-item" data-filter="creativity">
+            <i class="bi bi-palette-fill me-2"></i>Creativity
+          </button>
+          <button class="filter-item" data-filter="eating">
+            <i class="bi bi-egg-fried me-2"></i>Eating
+          </button>
+        </div>
+
+        <div class="portfolio-body mt-5">
+          <div class="row justify-content-evenly g-4">
+            <div class="post col-md-4 coding all col-10" data-aos="flip-left">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/coding.png" class="card-img-top" alt="Coding" loading="lazy" />
+                  <div class="card-overlay">
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Coding</h4>
+                  <div class="badge-container mt-3">
+                    <span class="badge bg-primary">Sharp mind</span>
+                    <span class="badge bg-primary">Strong logic</span>
+                    <span class="badge bg-primary">Focus</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post col-md-4 music all col-10" data-aos="flip-left" data-aos-delay="100">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/guitar.png" class="card-img-top" alt="Music" loading="lazy" />
+                  <div class="card-overlay">
+                    <i class="bi bi-music-note-beamed"></i>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Music</h4>
+                  <div class="badge-container mt-3">
+                    <span class="badge bg-success">Relax mind</span>
+                    <span class="badge bg-success">Calm emotions</span>
+                    <span class="badge bg-success">Focus</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post col-md-4 sports all col-10" data-aos="flip-left" data-aos-delay="200">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/volleyball.png" class="card-img-top" alt="Sports" loading="lazy" />
+                  <div class="card-overlay">
+                    <i class="bi bi-trophy-fill"></i>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Sports</h4>
+                  <div class="badge-container mt-3">
+                    <span class="badge bg-warning">Strong body</span>
+                    <span class="badge bg-warning">Teamwork</span>
+                    <span class="badge bg-warning">Discipline</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post col-md-4 gaming all col-10" data-aos="flip-left">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/gaming.png" class="card-img-top" alt="Gaming" loading="lazy" />
+                  <div class="card-overlay">
+                    <i class="bi bi-controller"></i>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Gaming</h4>
+                  <div class="badge-container mt-3">
+                    <span class="badge bg-danger">Quick reflexes</span>
+                    <span class="badge bg-danger">Strategy</span>
+                    <span class="badge bg-danger">Focus</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post col-md-4 creativity all col-10" data-aos="flip-left" data-aos-delay="100">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/creativity.png" class="card-img-top" alt="Creativity" loading="lazy" />
+                  <div class="card-overlay">
+                    <i class="bi bi-palette-fill"></i>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Creativity</h4>
+                  <div class="badge-container mt-3">
+                    <span class="badge bg-info">Ideas</span>
+                    <span class="badge bg-info">Imagination</span>
+                    <span class="badge bg-info">Innovative</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post col-md-4 eating all col-10" data-aos="flip-left" data-aos-delay="200">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/eating.png" class="card-img-top" alt="Eating" loading="lazy" />
+                  <div class="card-overlay">
+                    <i class="bi bi-egg-fried"></i>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Eating</h4>
+                  <div class="badge-container mt-3">
+                    <span class="badge bg-dark">Energy</span>
+                    <span class="badge bg-dark">Health</span>
+                    <span class="badge bg-dark">Growth</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AIM Section -->
+    <section class="aim py-5" id="aim">
+      <div class="container">
+        <div class="heading text-center pt-5" data-aos="fade-up">
+          <small class="section-subtitle-white">My Career Path 🎯</small>
+          <h2 class="section-title-white">
+            My Aim & Future Goals
+          </h2>
+          <div class="title-underline-white"></div>
+          <p class="text-white mt-3 lead">Charting My Journey to Become a Software Engineer</p>
+        </div>
+
+        <div class="aim-timeline mt-5">
+          <!-- Timeline Item 1 -->
+          <div class="aim-item" data-aos="fade-right" data-aos-duration="1000">
+            <div class="aim-icon aim-icon-1">
+              <i class="bi bi-mortarboard-fill text-white"></i>
+            </div>
+            <div class="aim-content">
+              <div class="aim-number">1</div>
+              <h3 class="aim-title">Complete BCA Degree with Excellence</h3>
+              <p class="aim-description">
+                My immediate goal is to successfully complete my Bachelor of Computer Applications (BCA) degree from RKDF University, Ranchi with strong grades. I aim to build a comprehensive understanding of computer science fundamentals, including data structures, algorithms, database management, and software development principles. I plan to actively participate in college projects, coding competitions, and technical events to gain practical experience alongside theoretical knowledge.
+              </p>
+              <div class="mt-3">
+                <span class="aim-tag"><i class="bi bi-calendar-check me-1"></i>2026-2028</span>
+                <span class="aim-tag"><i class="bi bi-graph-up me-1"></i>Academic Excellence</span>
+                <span class="aim-tag"><i class="bi bi-code-square me-1"></i>Practical Skills</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="aim-item" data-aos="fade-left" data-aos-duration="1000">
+            <div class="aim-icon aim-icon-2">
+              <i class="bi bi-laptop-fill text-white"></i>
+            </div>
+            <div class="aim-content">
+              <div class="aim-number">2</div>
+              <h3 class="aim-title">Master Modern Technologies & Frameworks</h3>
+              <p class="aim-description">
+                I am committed to continuously expanding my technical skill set beyond my current knowledge of C, C++, HTML, and CSS. My plan includes mastering JavaScript and modern frameworks like React.js or Angular for frontend development, learning backend technologies such as Node.js, Python, or Java, understanding database systems (both SQL and NoSQL), and familiarizing myself with DevOps tools and cloud platforms. I will achieve this through online courses, personal projects, and contributing to open-source communities.
+              </p>
+              <div class="mt-3">
+                <span class="aim-tag"><i class="bi bi-code-slash me-1"></i>Full Stack Development</span>
+                <span class="aim-tag"><i class="bi bi-git me-1"></i>Version Control</span>
+                <span class="aim-tag"><i class="bi bi-cloud me-1"></i>Cloud Computing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="aim-item" data-aos="fade-right" data-aos-duration="1000">
+            <div class="aim-icon aim-icon-3">
+              <i class="bi bi-briefcase-fill text-white"></i>
+            </div>
+            <div class="aim-content">
+              <div class="aim-number">3</div>
+              <h3 class="aim-title">Become a Professional Software Engineer</h3>
+              <p class="aim-description">
+                My ultimate career goal is to establish myself as a professional Software Engineer at a reputed technology company. I aspire to work on innovative projects that solve real-world problems and make a positive impact on people's lives. I aim to continuously improve my problem-solving abilities, write clean and efficient code, collaborate effectively in team environments, and stay updated with emerging technologies. In the long term, I also hope to mentor aspiring developers and contribute meaningfully to the tech community.
+              </p>
+              <div class="mt-3">
+                <span class="aim-tag"><i class="bi bi-trophy-fill me-1"></i>Career Success</span>
+                <span class="aim-tag"><i class="bi bi-people-fill me-1"></i>Team Collaboration</span>
+                <span class="aim-tag"><i class="bi bi-lightbulb-fill me-1"></i>Innovation</span>
+                <span class="aim-tag"><i class="bi bi-star-fill me-1"></i>Continuous Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-8 text-center" data-aos="zoom-in">
+            <div class="aim-content aim-final">
+              <i class="bi bi-rocket-takeoff-fill aim-rocket"></i>
+              <h4 class="mt-3">The Journey Has Just Begun</h4>
+              <p class="text-muted mt-3">
+                I understand that becoming a successful software engineer requires dedication, continuous learning, and perseverance. I am fully committed to this journey and ready to face challenges head-on. Every line of code I write, every problem I solve, and every skill I acquire brings me one step closer to achieving my dream. I believe in the power of consistent effort and remain motivated to turn my aspirations into reality.
+              </p>
+              <div class="mt-4">
+                <a href="#contact" class="c-btn-white">
+                  <span>Let's Connect</span>
+                  <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motivation Section -->
+    <section class="motivation py-5" id="motivation">
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center">
+          <div class="col-md-5 col-10 mb-5 mb-md-0" data-aos="fade-right">
+            <div class="motivation-image-wrapper">
+              <img src="images/motivation.png" class="img-fluid rounded-4" alt="Motivation" loading="lazy" />
+            </div>
+          </div>
+          <div class="col-md-6 col-10" data-aos="fade-left">
+            <div class="heading">
+              <small class="section-subtitle">Motivation 🎯</small>
+              <h2 class="section-title">What Motivates Me?</h2>
+              <div class="title-underline"></div>
+              <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testimonial-card">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p class="testimonial-text">
+                        "Arise, awake, and stop not till the goal is reached"
+                      </p>
+                      <div class="testimonial-author">
+                        <h5>Swami Vivekananda</h5>
+                        <small class="text-muted">Great Philosopher</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonial-card">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p class="testimonial-text">
+                        "The best way to predict your future is to create it"
+                      </p>
+                      <div class="testimonial-author">
+                        <h5>Abraham Lincoln</h5>
+                        <small class="text-muted">Great Philosopher</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonial-card">
+                      <i class="bi bi-quote quote-icon"></i>
+                      <p class="testimonial-text">
+                        "Excellence is never an accident; it is the result of consistent effort"
+                      </p>
+                      <div class="testimonial-author">
+                        <h5>Aristotle</h5>
+                        <small class="text-muted">Great Philosopher</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev nextprev-btn"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                  aria-label="Previous quote"
+                >
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button
+                  class="carousel-control-next nextprev-btn"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                  aria-label="Next quote"
+                >
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Questions/Blog Section -->
+    <section class="question py-5" id="question">
+      <div class="container">
+        <div class="heading text-center pt-5" data-aos="fade-up">
+          <small class="section-subtitle">Questions ❓</small>
+          <h2 class="section-title">Most People Ask This</h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="row justify-content-evenly mt-5 g-4">
+          <div class="col-md-4 col-10" data-aos="fade-up">
+            <article class="blogpost">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/coding.png" class="card-img-top" alt="Why I Chose Coding" loading="lazy" />
+                </div>
+                <div class="card-body">
+                  <div class="blog-meta mb-3">
+                    <span class="text-muted">
+                      <i class="bi bi-person-fill me-1"></i>Rohit Kr. Gupta
+                    </span>
+                    <span class="text-muted ms-3">
+                      <i class="bi bi-calendar-fill me-1"></i>Feb 14, 2026
+                    </span>
+                  </div>
+                  <h4 class="card-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">Why I Chose Coding?</a>
+                  </h4>
+                  <p class="text-muted mt-3">
+                    I chose coding because it sharpens my thinking, improves problem-solving skills, and helps me grow intellectually. It also improves my focus.
+                  </p>
+                  <a href="#" class="read-more-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Read More <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 col-10" data-aos="fade-up" data-aos-delay="100">
+            <article class="blogpost">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/guitar.png" class="card-img-top" alt="Why I Chose Guitar" loading="lazy" />
+                </div>
+                <div class="card-body">
+                  <div class="blog-meta mb-3">
+                    <span class="text-muted">
+                      <i class="bi bi-person-fill me-1"></i>Rohit Kr. Gupta
+                    </span>
+                    <span class="text-muted ms-3">
+                      <i class="bi bi-calendar-fill me-1"></i>Feb 14, 2026
+                    </span>
+                  </div>
+                  <h4 class="card-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Why I Chose Guitar to Play?</a>
+                  </h4>
+                  <p class="text-muted mt-3">
+                    I chose to play the guitar because it helps me express my creativity and relax my mind. It also improves my focus, discipline, and emotional balance.
+                  </p>
+                  <a href="#" class="read-more-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Read More <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 col-10" data-aos="fade-up" data-aos-delay="200">
+            <article class="blogpost">
+              <div class="card h-100">
+                <div class="card-img-wrapper">
+                  <img src="images/volleyball.png" class="card-img-top" alt="Why I Chose Volleyball" loading="lazy" />
+                </div>
+                <div class="card-body">
+                  <div class="blog-meta mb-3">
+                    <span class="text-muted">
+                      <i class="bi bi-person-fill me-1"></i>Rohit Kr. Gupta
+                    </span>
+                    <span class="text-muted ms-3">
+                      <i class="bi bi-calendar-fill me-1"></i>Feb 14, 2026
+                    </span>
+                  </div>
+                  <h4 class="card-title">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">Why I Choose Volleyball in Sports?</a>
+                  </h4>
+                  <p class="text-muted mt-3">
+                    I chose volleyball because it keeps me physically fit and active. It also teaches teamwork, discipline, and quick decision-making.
+                  </p>
+                  <a href="#" class="read-more-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    Read More <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Modals -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <button type="button" class="btn-c" data-bs-dismiss="modal" aria-label="Close">
+                <i class="bi bi-x-circle-fill"></i>
+              </button>
+              <div class="modal-body p-4">
+                <img src="images/coding.png" class="img-fluid rounded-4 mb-4" alt="Coding" />
+                <div class="blog-meta mb-3">
+                  <span class="text-muted">
+                    <i class="bi bi-person-fill me-1"></i>Rohit Kr. Gupta
+                  </span>
+                  <span class="text-muted ms-3">
+                    <i class="bi bi-calendar-fill me-1"></i>Feb 14, 2026
+                  </span>
+                </div>
+                <h3 id="modal1Label" class="mt-3">Why I Chose Coding?</h3>
+                <p class="text-muted mt-3">
+                  I chose coding because it sharpens my thinking and strengthens my logical abilities. It improves my problem-solving skills by teaching me how to break complex problems into simple steps. Coding helps me develop analytical thinking and a structured approach to challenges. It enhances my patience and persistence while debugging and refining programs. Through coding, I can transform ideas into real and practical solutions. It also encourages creativity by allowing me to design and build new applications. Coding improves my focus and attention to detail. It keeps me motivated to continuously learn and explore new technologies. It prepares me to solve real-world problems using technology. Overall, coding helps me grow intellectually and aligns perfectly with my goal of becoming a software engineer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <button type="button" class="btn-c" data-bs-dismiss="modal" aria-label="Close">
+                <i class="bi bi-x-circle-fill"></i>
+              </button>
+              <div class="modal-body p-4">
+                <img src="images/guitar.png" class="img-fluid rounded-4 mb-4" alt="Guitar" />
+                <div class="blog-meta mb-3">
+                  <span class="text-muted">
+                    <i class="bi bi-person-fill me-1"></i>Rohit Kr. Gupta
+                  </span>
+                  <span class="text-muted ms-3">
+                    <i class="bi bi-calendar-fill me-1"></i>Feb 14, 2026
+                  </span>
+                </div>
+                <h3 id="modal2Label" class="mt-3">Why I Chose Guitar to Play?</h3>
+                <p class="text-muted mt-3">
+                  I chose to play the guitar because it allows me to express my creativity through music. Playing the guitar helps me relax my mind and reduce daily stress. It gives me emotional balance and keeps me mentally calm. Guitar practice improves my focus and concentration. It teaches me patience and discipline through regular practice. Music helps me stay motivated and positive. Playing the guitar enhances my listening skills and rhythm sense. It supports my overall mental well-being. Guitar playing helps me maintain a healthy balance between studies and hobbies. Overall, it plays an important role in my personal growth and self-expression.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <button type="button" class="btn-c" data-bs-dismiss="modal" aria-label="Close">
+                <i class="bi bi-x-circle-fill"></i>
+              </button>
+              <div class="modal-body p-4">
+                <img src="images/volleyball.png" class="img-fluid rounded-4 mb-4" alt="Volleyball" />
+                <div class="blog-meta mb-3">
+                  <span class="text-muted">
+                    <i class="bi bi-person-fill me-1"></i>Rohit Kr. Gupta
+                  </span>
+                  <span class="text-muted ms-3">
+                    <i class="bi bi-calendar-fill me-1"></i>Feb 14, 2026
+                  </span>
+                </div>
+                <h3 id="modal3Label" class="mt-3">Why I Choose Volleyball in Sports?</h3>
+                <p class="text-muted mt-3">
+                  I chose volleyball because it keeps me physically fit and active. It helps me build strength, stamina, and overall endurance. Playing volleyball improves my coordination and agility. It teaches me the importance of teamwork and cooperation. The sport develops discipline and a strong sense of responsibility. Volleyball trains me to make quick decisions under pressure. It improves my confidence and leadership skills. Regular practice helps me stay focused and energetic. Playing volleyball also helps me manage stress effectively. Overall, volleyball contributes positively to my physical fitness and personal development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="heading text-center" data-aos="fade-up">
+          <small class="section-subtitle">Get in Touch 🤗</small>
+          <h2 class="section-title">Any Questions? Feel Free to Contact</h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="row justify-content-evenly mt-5">
+          <div class="col-md-5 col-10 mb-5 mb-md-0" data-aos="fade-right">
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="contact-info">
+                  <h5>Location</h5>
+                  <p>RKDF University Ranchi, Jharkhand</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div class="contact-info">
+                  <h5>Phone</h5>
+                  <p>+91 6201778110</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div class="contact-info">
+                  <h5>Email</h5>
+                  <p>rohit9693gupta@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="bi bi-globe-americas"></i>
+                </div>
+                <div class="contact-info">
+                  <h5>Website</h5>
+                  <p>xyz.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-10" data-aos="fade-left">
+            <form class="contact-form" id="contactForm">
+              <div class="mb-4">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+              </div>
+              <div class="mb-4">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+              </div>
+              <div class="mb-4">
+                <label for="phone" class="form-label">Mobile Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your mobile number" required />
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit" class="c-btn w-100">
+                <span>Send Message</span>
+                <i class="bi bi-send-fill ms-2"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button type="button" id="btn-back-to-top" aria-label="Back to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <h3 class="pt-5 mb-4" data-aos="fade-up">
+          <span class="brand-icon">👨‍💻</span> Portfolio
+        </h3>
+        <div class="link-group mt-4" data-aos="fade-up">
+          <a href="#home">Introduction</a>
+          <div class="vr"></div>
+          <a href="#interest">Interest</a>
+          <div class="vr"></div>
+          <a href="#skill">Skills</a>
+          <div class="vr"></div>
+          <a href="#favourite">Favourite</a>
+          <div class="vr"></div>
+          <a href="#aim">Aim</a>
+          <div class="vr"></div>
+          <a href="#motivation">Motivation</a>
+          <div class="vr"></div>
+          <a href="#question">Questions</a>
+          <div class="vr"></div>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links mt-5" data-aos="fade-up">
+          <button class="social-btn dribble" aria-label="Dribbble">
+            <i class="bi bi-dribbble"></i>
+          </button>
+          <button class="social-btn whatsapp" aria-label="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+          </button>
+          <button class="social-btn behance" aria-label="Behance">
+            <i class="bi bi-behance"></i>
+          </button>
+          <button class="social-btn instagram" aria-label="Instagram">
+            <i class="bi bi-instagram"></i>
+          </button>
+        </div>
+        <hr class="text-muted my-5" />
+        <p class="text-muted pb-4">
+          Copyright © 2026 Rohit Kumar Gupta | All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Bundle JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+          crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- EmailJS for Contact Form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        // Initialize EmailJS with your public key
+        // Get your key from https://www.emailjs.com/
+        emailjs.init("YOUR_PUBLIC_KEY_HERE");
+      })();
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
